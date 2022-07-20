@@ -1,0 +1,65 @@
+<img src="" height="105" width="250" />
+<nav
+  class="navbar navbar-expand-sm bg-primary navbar-dark justify-content-between"
+  id="navBar"
+>
+  <ul class="navbar-nav mx-2" style="position: relative; left: 15%; top: 2px">
+    <li class="nav-item">
+      <a href="" routerLink="movies" routerLinkActive="active" class="nav-link"
+        ><img id="search" src="" width="100"
+      /></a>
+    </li>
+    <li class="nav-item mx-3">
+      <a
+        href=""
+        routerLink="movie-list"
+        routerLinkActive="active"
+        class="nav-link"
+        ><img id="list" src="" width="100"
+      /></a>
+    </li>
+    <li class="nav-item mx-3">
+      <a
+        href=""
+        routerLink="watched-movies"
+        routerLinkActive="active"
+        class="nav-link"
+        ><img id="" src="" width="100"
+      /></a>
+    </li>
+  </ul>
+  <ul class="navbar-nav mx-3">
+    <li class="nav-item">
+      <a
+        href=""
+        routerLink="register"
+        routerLinkActive="active"
+        class="nav-link"
+        >Sign Up</a
+      >
+    </li>
+    <li class="nav-item">
+      <a href="" routerLink="login" routerLinkActive="active" class="nav-link"
+        >Sign In</a
+      >
+    </li>
+  </ul>
+  <ul class="navbar-nav mx-3">
+    <li class="nav-item">
+      <p class="nav-link"></p>
+    </li>
+    <li class="nav-item">
+      <a href="" class="nav-link" routerLink="login">Log Out</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- <h1 class="text-center">{{ title }}</h1> -->
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div class="container text-center">
+    <span>© 2022</span>
+  </div>
+</footer>
